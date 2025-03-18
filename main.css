@@ -7,36 +7,6 @@
     box-sizing: border-box;
     
 }
-/* 
-h1{
-    font: 50px;
-    line-height: 64px;
-    color: #222;
-}
-
-h2{
-    font-size: 46px;
-    line-height: 54px;
-    color: #222;
-}
-
-h4{
-    font-size: 20px;
-    color: #222;
-}
-
-h6{
-    font-weight: 700;
-    font-size: 12px;
-}
-
-p{
-    font-size: 16px;
-    color: #465b52;
-    margin: 10px 0 20px 0;
-} */
-
-
 
 .container{
     display: flex;
@@ -49,7 +19,6 @@ p{
 }
 
 
-/* ✅ جعل القائمة أفقية */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -68,7 +37,7 @@ p{
 
 .nav-items {
     display: flex;
-    list-style: none; /* إزالة النقاط */
+    list-style: none; 
     padding: 0;
     margin: 0;
 }
@@ -84,12 +53,10 @@ p{
     /* padding: 5px 10px; */
 }
 
-/* ✅ إضافة تباعد لمنع التصاق الشرطات `/` */
 .nav-items li span {
     margin: 0 5px;
 }
 
-/* تحديد العنصر النشط */
 .nav-items .active a {
     color: black;
     font-weight: bold;
@@ -123,7 +90,7 @@ p{
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 30px;
-    height: 98%; /* Ensure it takes full height */
+    height: 98%;
     width: 100%;
     margin-bottom: 1rem;
     
@@ -514,7 +481,7 @@ p{
 
 @media (max-width: 1024px) {
     .product-section {
-        grid-template-columns: 1fr; /* يجعل العرض عمودياً */
+        grid-template-columns: 1fr; 
     }
 
     .checkout-box {
@@ -558,13 +525,13 @@ p{
     }
 
     .navbar{
-        position: fixed; /* تثبيت الـ Navbar في الأعلى */
-        top: 0; /* التأكد أنها في أعلى الصفحة */
+        position: fixed; 
+        top: 0;
         left: 0;
         width: 100%;
-        background-color: white; /* خلفية بيضاء */
-        padding: 10px; /* التأكد من وجود مسافة داخلية */
-        z-index: 1000;  /* التأكد من أنها فوق كل العناصر الأخرى */
+        background-color: white;
+        padding: 10px; 
+        z-index: 1000;  
         margin: 0;
     }
     .product-gallary{
